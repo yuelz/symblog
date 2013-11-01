@@ -1,0 +1,2 @@
+#!/usr/lib/sh
+php app/console

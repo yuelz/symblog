@@ -1,0 +1,31 @@
+Enquiry:
+    type: entity
+    table: enquiry
+    fields:
+        enquiryId:
+            id: true
+            type: integer
+            unsigned: false
+            nullable: false
+            column: enquiry_id
+            generator:
+                strategy: IDENTITY
+        nombre:
+            type: string
+            length: 30
+            fixed: false
+            nullable: false
+        email:
+            type: string
+            length: 150
+            fixed: false
+            nullable: false
+        subject:
+            type: string
+            length: 30
+            fixed: false
+            nullable: false
+        body:
+            type: text
+            nullable: false
+    lifecycleCallbacks: {  }
