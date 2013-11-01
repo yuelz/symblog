@@ -1,3 +1,3 @@
 @echo off
 
-php app/console  %*
+php app/console %*
